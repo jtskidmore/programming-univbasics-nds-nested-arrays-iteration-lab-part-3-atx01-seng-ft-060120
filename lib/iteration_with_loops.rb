@@ -7,7 +7,7 @@ def join_nested_strings(src)
     
     while inner_count < src[count].count do 
       
-      if src[count][inner_count].is_a? String 
+      if src[count][inner_count].is_a? String do
       
         sum += src[count][inner_count]
       
