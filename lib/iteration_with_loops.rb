@@ -9,7 +9,7 @@ def join_nested_strings(src)
       
       if src[count][inner_count].is_a? String 
       
-        sum += src[count][inner_count]
+        sum << src[count][inner_count]
       
       end
       
