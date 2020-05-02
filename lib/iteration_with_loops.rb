@@ -7,7 +7,7 @@ def join_nested_strings(src)
     
     while inner_count < src[count].count do 
       
-      if src[count][inner_count].
+      if src[count][inner_count].is_a
       
       sum += src[count][inner_count]
       
